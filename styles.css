@@ -24,10 +24,13 @@ td:first-child{
     font-size: 0.9em;
     /* width: 200px; */
 }
-th{
-    transform: rotate(90deg);
-    height: 50px !important;
+@media (max-width: 800px){
+    th{
+        transform: rotate(90deg);
+        height: 50px !important;
+    }
 }
+
 h1,h2,h3{
     text-align: center;
 }
