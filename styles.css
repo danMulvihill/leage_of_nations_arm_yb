@@ -6,6 +6,7 @@ a{text-decoration: none;}
 
 .footnotes{
     padding: 10px;
+    font-size: 0.7em;
 }
 
 table{
@@ -13,6 +14,10 @@ table{
     max-width: 1000px;
     margin: 0 auto;
     display: table !important;
+}
+
+ul{
+    list-style-type: none;
 }
 
 @media(min-width){
@@ -42,6 +47,7 @@ td:first-child{
     }
 }
 
-h1,h2,h3{
+header{
     text-align: center;
+    margin-top: 10px;
 }
