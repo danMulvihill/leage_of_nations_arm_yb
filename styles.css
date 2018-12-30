@@ -10,7 +10,7 @@ a{text-decoration: none;}
 }
 
 table{
-    width: 80%;
+    width: 95%;
     max-width: 1000px;
     margin: 0 auto;
     display: table !important;
@@ -50,4 +50,8 @@ td:first-child{
 header{
     text-align: center;
     margin-top: 10px;
+    background: #bbb;
+    width: 95%;
+    margin: 5px auto;
+    padding: 10px 0;
 }
