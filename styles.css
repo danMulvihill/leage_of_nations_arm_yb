@@ -9,23 +9,38 @@ a{text-decoration: none;}
     font-size: 0.7em;
 }
 
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+@media (min-width: 500px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        /* width: 70%; */
+    }
+    #about{
+        align-self: flex-end;
+        padding-right: 10px;
+    }
+}
+
+/* @media (min-width: 500px){
+    table{
+        margin-right: 10px;
+    }
+} */
+
 table{
     width: 95%;
     max-width: 1000px;
     margin: 0 auto;
     display: table !important;
 }
-
-ul{
-    list-style-type: none;
-}
-
-@media(min-width){
-    table{
-        margin-right: 10px;
-    }
-}
-
 
 tbody{
     width: 100%;
