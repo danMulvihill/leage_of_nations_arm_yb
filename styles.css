@@ -14,7 +14,7 @@ ul{
     list-style-type: none;
     padding: 10px;
 }
-
+/* using flex-box to fix simple navbar */
 @media (min-width: 500px){
     ul{
         display: flex;
